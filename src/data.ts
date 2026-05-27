@@ -7,10 +7,10 @@ export const meta = {
   github: 'https://github.com/anduong10',
   linkedin: 'https://www.linkedin.com/in/an-duong-2033a115b/',
   handshake:'https://app.joinhandshake.com/profiles/anduong',
-  resumeUrl: '/resume.pdf',
-  avatar: '/avatar.jpg',
-  avatar2: '/avatar2.jpg',
-  avatar3: '/avatar3.jpg',
+  resumeUrl: `${import.meta.env.BASE_URL}resume.pdf`,
+  avatar: `${import.meta.env.BASE_URL}avatar.jpg`,
+  avatar2: `${import.meta.env.BASE_URL}avatar2.jpg`,
+  avatar3: `${import.meta.env.BASE_URL}avatar3.jpg`,
 }
 
 export const skills: { category: string; items: string[] }[] = [
