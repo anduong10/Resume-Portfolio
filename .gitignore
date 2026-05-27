@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Claude Code project files
+.claude/
+
+# Env files
+.env
+.env.local

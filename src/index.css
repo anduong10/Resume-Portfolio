@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: night --prefersdark;
+}
+
+@theme {
+  --font-family-sans: 'Inter', system-ui, sans-serif;
+  --font-family-mono: 'JetBrains Mono', monospace;
+
+  --animate-fade-up: fadeUp 0.6s ease forwards;
+}
+
+@keyframes fadeUp {
+  0%   { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@layer base {
+  html { scroll-behavior: smooth; }
+
+  ::selection {
+    background-color: hsl(var(--p) / 0.3);
+    color: white;
+  }
+
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: var(--color-base-100); }
+  ::-webkit-scrollbar-thumb { background: var(--color-base-300); border-radius: 9999px; }
+}
+
+@utility section-padding {
+  padding-inline: 1.5rem;
+  @media (width >= 768px)  { padding-inline: 3rem; }
+  @media (width >= 1024px) { padding-inline: 6rem; }
+  @media (width >= 1280px) { padding-inline: 10rem; }
+}
