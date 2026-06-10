@@ -59,10 +59,10 @@ export const projects: {
     github: '#',
   },
   {
-    title: 'Roblox Game',
+    title: 'Can I go Undefeated? (NBA Simulator)',
     description:
-      'Developing a multiplayer casino-style game in Roblox Studio using Luau, building interactive mini-games with randomized outcomes, virtual currency, and reward systems.',
-    tags: ['Luau', 'Roblox Studio', 'Client-Server Architecture', 'OOP'],
+      'Built a client-side React and TypeScript web game where users assemble cross-era NBA rosters and attempt an undefeated 82–0 season, with all simulation logic running in the browser.',
+    tags: ['React', 'TypeScript', 'Tailwind CSS ', 'DaisyUI','Client-Side Simulation'],
     github: '#',
     live: '#',
   },
@@ -75,13 +75,13 @@ export const experience: {
   bullets: string[]
 }[] = [
   {
-    company: 'Amazon',
-    role: 'Warehouse Associate ',
+    company: 'The University of Akron',
+    role: 'Undergraduate Research Assistant — Cyber Forensics ',
     period: 'Jan 2023 – Apr 2023',
     bullets: [
-      'Sorted and routed packages by destination using handheld scanners and warehouse systems, maintaining high accuracy in a fast-paced environment.',
-      'Loaded and unloaded pallets while meeting throughput targets and quality standards.',
-      '•	Verified package labels and corrected routing errors to reduce downstream delivery mistakes.',
+      'Contributing to the development and testing of digital investigation tools used to analyze cybersecurity incidents and process forensic evidence.',
+      'Supporting the collection, preservation, and analysis of digital evidence following standard forensic procedures to maintain integrity and chain of custody.',
+      'Assisting a faculty-led cyber forensics summer camp by preparing technical presentation materials and demonstrations for high school students.',
     ],
   },
   
