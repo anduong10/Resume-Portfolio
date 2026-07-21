@@ -1,7 +1,7 @@
 export const meta = {
   name: 'An Duong',
   role: 'Software Engineer',
-  tagline: 'Computer Information Systems Student Seeking a Software Engineering Internship',
+  tagline: 'Computer Information Systems 26 Graduate Seeking a Software Engineering full-time position.',
   bio: `I started off majoring in Sport Management, but COVID changed the direction of my major and led me to switch fields. Since then, I have been pursuing a CIS Programming concentration at The University of Akron, and I haven’t looked back since. I'm excited to learn more how I can apply my skills and passion for software development in a real-world setting, and I'm eager to contribute to a dynamic team while continuing to grow as a developer.`,
   email: 'ad167@uakron.edu',
   github: 'https://github.com/anduong10',
@@ -59,10 +59,10 @@ export const projects: {
     github: '#',
   },
   {
-    title: 'Can I go Undefeated? (NBA Simulator)',
+    title: 'Tournament Management Rest API',
     description:
-      'Built a client-side React and TypeScript web game where users assemble cross-era NBA rosters and attempt an undefeated 82–0 season, with all simulation logic running in the browser.',
-    tags: ['React', 'TypeScript', 'Tailwind CSS ', 'DaisyUI','Client-Side Simulation'],
+      'Developed RESTful backend service in Java and Spring Boot 3 with layered architecture (Controller, Service, Repository), Spring Data JPA for database access, and 8+ endpoints for tournament management operations.•	Built single-elimination bracket generation algorithm using binary tree structure with seed-based pairing and automatic winner advancement, implemented with @Transactional annotations for atomic multi-entity operations ',
+    tags: ['Java', 'Spring Boot', 'Spring Data JPA  ', 'PostGresQL','Maven'],
     github: '#',
     live: '#',
   },
